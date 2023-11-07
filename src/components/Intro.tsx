@@ -47,7 +47,7 @@ function Intro() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="font-medium !leading-[1,5] text-2xl sm.text-4xl mt-4 mb-10 px-4"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ function Intro() {
         Hi! I'm <span className="font-bold">Axel</span>, a{" "}
         <span className="font-bold">full-stack developer</span> based in{" "}
         <span className="font-bold">Paris, France</span>.
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
