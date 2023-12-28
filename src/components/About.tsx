@@ -3,14 +3,19 @@
 import React from "react";
 import SectionHeader from "@/components/section-header";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
-function About() {
+export default function About() {
+  const { ref } = useSectionInView("About");
+
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      ref={ref}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.175 }}
+      id="about"
     >
       <SectionHeader>About Me</SectionHeader>
       <p className="mb-3">
@@ -42,5 +47,3 @@ function About() {
     </motion.section>
   );
 }
-
-export default About;

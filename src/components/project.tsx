@@ -7,7 +7,12 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
-function Project({ title, description, tags, imageUrl }: ProjectProps) {
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+}: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -56,5 +61,3 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
     </motion.div>
   );
 }
-
-export default Project;
