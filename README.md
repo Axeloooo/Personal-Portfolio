@@ -1,4 +1,4 @@
-# 👨🏼‍💻 Personal Portfolio
+# 💼 Personal Portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Axeloooo/Personal-Portfolio?logo=github&color=blue)
 ![Github tag](https://img.shields.io/github/v/tag/Axeloooo/Personal-Portfolio?logo=github&color=red)
