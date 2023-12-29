@@ -9,13 +9,13 @@
 ## 📖 Table of Contents
 
 - [🔎 Overview](#-overview)
-- [👨‍💻 Teck Stack](#-teck-stack)
+- [👨‍💻 Tech Stack](#-tech-stack)
 
 ## 🔎 Overview
 
-My personal portfolio website built with Next.js and Tailwind CSS. It is deployed on AWS using Terraform and Docker.
+My personal portfolio website built with Next.js and Tailwind CSS, deployed on AWS using Terraform and Docker.
 
-## 👨‍💻 Teck Stack
+## 👨‍💻 Tech Stack
 
 - Frontend
 
