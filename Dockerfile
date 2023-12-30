@@ -1,10 +1,10 @@
 FROM node:18-alpine
-RUN mkdir -p /app
 WORKDIR /app
-COPY . .
-RUN npm install
-RUN npm run build
 ARG RESEND_API_KEY
 ENV RESEND_API_KEY=${RESEND_API_KEY}
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
 EXPOSE 3000
 CMD ["npm", "run", "start"]

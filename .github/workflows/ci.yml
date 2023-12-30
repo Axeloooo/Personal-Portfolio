@@ -21,4 +21,4 @@ jobs:
       - name: Docker build and Push
         run: |
           docker build -t axeloooo/portfolio .
-          docker push Aaxeloooo/portfolio
+          docker push axeloooo/portfolio
