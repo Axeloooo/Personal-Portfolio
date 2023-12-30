@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# infra
+.terraform
+.terraform.lock.hcl
+terraform.tfvars
+
+# IDE
+.vscode
+

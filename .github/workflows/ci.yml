@@ -1,0 +1,19 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Docker build and Push
+        run: |
+          docker login -u Axeloooo -p "${{ secrets.DOCKER_HUB_PASSWORD }}"
+          docker build -t Axeloooo/portfolio .
+          docker push Axeloooo/portfolio
