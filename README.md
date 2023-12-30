@@ -1,5 +1,6 @@
 # 💼 Personal Portfolio
 
+[![Continuous Integration](https://github.com/Axeloooo/Personal-Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Axeloooo/Personal-Portfolio/actions/workflows/ci.yml)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Axeloooo/Personal-Portfolio?logo=github&color=blue)
 ![Github tag](https://img.shields.io/github/v/tag/Axeloooo/Personal-Portfolio?logo=github&color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/Axeloooo/Personal-Portfolio?logo=github&color=yellow)
