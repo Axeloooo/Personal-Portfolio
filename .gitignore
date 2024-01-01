@@ -39,7 +39,10 @@ next-env.d.ts
 .terraform
 .terraform.lock.hcl
 terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate*
 
 # IDE
 .vscode
-
+infra/*.zip
