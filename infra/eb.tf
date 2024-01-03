@@ -16,6 +16,12 @@ resource "aws_elastic_beanstalk_environment" "portfolio_eb_env" {
   version_label       = aws_elastic_beanstalk_application_version.portfolio_eb_vol.name
 
   setting {
+    namespace = "aws:elasticbeanstalk:application:environment"
+    name      = "RESEND_API_KEY"
+    value     = var.RESEND_API_KEY
+  }
+
+  setting {
     namespace = "aws:autoscaling:launchconfiguration"
     name      = "InstanceType"
     value     = var.EC2_INSTANCE_TYPE

@@ -47,17 +47,12 @@ variable "DOMAIN_NAME" {
   description = "Domain name for the application"
 }
 
-variable "HOSTED_ZONE_ID" {
-  type        = string
-  description = "Hosted zone ID for the domain"
-}
-
 variable "CERTIFICATE_ARN" {
   type        = string
   description = "ARN of the certificate"
 }
 
-variable "ELB_HOSTED_ZONE_ID" {
+variable "RESEND_API_KEY" {
   type        = string
-  description = "Hosted zone ID for the ELB"
+  description = "API key for the Resend service"
 }
