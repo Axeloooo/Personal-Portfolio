@@ -33,3 +33,5 @@ My personal portfolio website built with Next.js and Tailwind CSS, deployed on A
   ![AWS](https://img.shields.io/badge/Amazon%20AWS-FF9900.svg?style=for-the-badge&logo=Amazon-AWS&logoColor=white)
   ![Terrafom](https://img.shields.io/badge/Terraform-623CE4.svg?style=for-the-badge&logo=Terraform&logoColor=white)
   ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
+
+## 📐 Architecture Diagram
