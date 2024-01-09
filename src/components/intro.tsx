@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/axel.png"
+              src="/axel.webp"
               alt="Axel portrait"
               width="192"
               height="192"

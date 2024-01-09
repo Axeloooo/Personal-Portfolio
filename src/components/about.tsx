@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeader>About Me</SectionHeader>
       <p className="mb-3">
-        🎓 I'm a third-year Software Engineering student minoring in Aerospace
-        Engineering at the University of Calgary.
+        🎓 I'm a third-year Software Engineering student at the University of
+        Calgary.
       </p>
 
       <p className="mb-3">

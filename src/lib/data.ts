@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaNodeJs, FaReact } from "react-icons/fa";
+import { RiFlutterFill } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
@@ -32,73 +33,103 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Notion Plus",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/axel.png",
+    tags: ["AWS", "Terraform", "Python", "React", "Javascript"],
+    imageUrl: "/axel.webp",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/axel.png",
-  },
-  {
-    title: "Word Analytics",
+    title: "Game Heaven",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Express", "MongoDB", "Vite", "React", "Tailwind", "Javascript"],
+    imageUrl: "/game-heaven.webp",
+  },
+  {
+    title: "Bandist",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["Flutter", "Dart", "Sqlite", "Django", "Python"],
+    imageUrl: "/bandist.webp",
+  },
+  {
+    title: "The Last Show",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["AWS", "Terraform", "Python", "React", "Javascript"],
     imageUrl: "/axel.png",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
+  "AWS",
+  "Terraform",
+  "Docker",
+  "Flutter",
   "Next.js",
+  "React",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Express",
+  "Spring Boot",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
+  "MySQL",
+  "SQLite",
+  "C/C++",
+  "Dart",
+  "TypeScript",
+  "JavaScript",
+  "Java",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind",
+  "CSS",
+  "HTML",
+  "Figma",
+  "Linux",
+  "Git",
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering - University of Calgary",
+    location: "Calgary, AB",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "3.2/4.0 GPA. Relevant courses: Full-Stack Web Development, Data Structures and Algorithms, Machine Learning, Databases, Operating Systems, Networked Systems and more.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Sept 2021 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Developer - Relectric Car Team",
+    location: "Calgary, AB",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Electrifying a 1966 Volvo P220. Creating the car's dashboard control system.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Sept 2022 - Dec 2022",
+  },
+  {
+    title: "Frontend Developer - Techstart UCalgary",
+    location: "Calgary, AB",
+    description:
+      "Building a cross-platform mobile app for a concert ticket and accommodation startup. Working on an agile team of 6 developers.",
+    icon: React.createElement(RiFlutterFill),
+    date: "Oct 2022 - April 2023",
+  },
+  {
+    title: "Software Developer Intern - Sigma",
+    location: "Remote",
+    description:
+      "Full stack development for a multinational company. Maintaining and developing new features for the company's e-commerce platform.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - Sept 2023",
+  },
+  {
+    title: "Lead Backend Developer - Techstart UCalgary",
+    location: "Calgary, AB",
+    description:
+      "Developing an e-commerce mobile app for an eco-friendly clothing startup. Leading an agile team of 3 developers.",
+    icon: React.createElement(FaNodeJs),
+    date: "Oct 2023 - Present",
   },
 ] as const;
