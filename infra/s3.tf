@@ -79,3 +79,9 @@ resource "aws_s3_object" "seuc_website_png" {
   key    = "portfolio/seuc-website.png"
   source = "../public/seuc-website.png"
 }
+
+resource "aws_s3_object" "icon_ico" {
+  bucket = data.aws_s3_bucket.portfolio_bucket.id
+  key    = "portfolio/favicon.ico"
+  source = "../public/favicon.ico"
+}
