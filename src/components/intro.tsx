@@ -29,15 +29,13 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src="/axel.png"
+            <img
+              src="https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/axel.png"
               alt="Axel portrait"
               width="192"
               height="192"
-              quality={95}
-              priority={true}
               className="h-24 w-24 rounded-full object-cover border-white shadow-xl border-[0.35rem]"
-            ></Image>
+            ></img>
           </motion.div>
 
           <motion.span

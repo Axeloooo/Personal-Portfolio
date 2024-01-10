@@ -50,12 +50,11 @@ export default function Project({
             </ul>
           </div>
 
-          <Image
+          <img
             src={imageUrl}
             width={1000}
             height={1000}
             alt={title}
-            quality={95}
             className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]

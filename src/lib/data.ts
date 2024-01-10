@@ -38,7 +38,8 @@ export const projectsData = [
     description:
       "Full stack serverless web application for simple note taking.",
     tags: ["Terraform", "Lambda", "DynamoDB", "Python", "React", "Javascript"],
-    imageUrl: "/lotion.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/lotion.png",
     githubUrl: "https://github.com/Axeloooo/Lotion-Plus",
   },
   {
@@ -46,7 +47,8 @@ export const projectsData = [
     description:
       "Full stack serverless web application that creates imaginative obituaries for fictional characters.",
     tags: ["Terraform", "Lambda", "DynamoDB", "Python", "React", "Javascript"],
-    imageUrl: "/last-show.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/last-show.png",
     githubUrl: "https://github.com/Axeloooo/The-Last-Show",
   },
   {
@@ -54,7 +56,8 @@ export const projectsData = [
     description:
       "Full stack cross-platform application for finding and booking local concerts for your favorite bands.",
     tags: ["Flutter", "Dart", "Sqlite", "Django", "Python"],
-    imageUrl: "/band.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/band.png",
     githubUrl: "https://github.com/techstartucalgary/Bandist",
   },
   {
@@ -62,7 +65,8 @@ export const projectsData = [
     description:
       "The official website for the Student Energy University of Calgary Chapter.",
     tags: ["Vite", "React", "Typescript", "Framer Motion"],
-    imageUrl: "/seuc-website.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/seuc-website.png",
     githubUrl: "https://github.com/studentenergyuofc/seucalgary-website",
   },
   {
@@ -70,7 +74,8 @@ export const projectsData = [
     description:
       "Full stack web application for finding and buying the most popular video games.",
     tags: ["Express", "MongoDB", "Vite", "React", "Tailwind", "Typescript"],
-    imageUrl: "/game.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/game.png",
     githubUrl: "https://github.com/Axeloooo/Ecommerce-API",
   },
   {
@@ -78,7 +83,8 @@ export const projectsData = [
     description:
       "Full stack web application for booking flights and managing reservations.",
     tags: ["Spring Boot", "MySQL", "Java", "React", "Javascript"],
-    imageUrl: "/airline.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/airline.png",
     githubUrl: "https://github.com/TheKenDoll/480TermProject",
   },
   {
@@ -86,7 +92,8 @@ export const projectsData = [
     description:
       "A comprehensive library encompassing a wide range of essential data structures, designed to serve as a reusable and versatile package.",
     tags: ["PyPi", "Python", "PyTest"],
-    imageUrl: "/libcode.png",
+    imageUrl:
+      "https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/libcode.png",
     githubUrl: "https://github.com/Axeloooo/LibCode",
   },
 ] as const;

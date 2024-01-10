@@ -42,6 +42,7 @@ terraform.tfvars
 terraform.tfstate
 terraform.tfstate.backup
 .terraform.tfstate*
+Dockerrun.aws.json
 
 # IDE
 .vscode
