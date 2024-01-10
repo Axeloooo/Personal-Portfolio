@@ -78,7 +78,7 @@ resource "aws_elastic_beanstalk_application_version" "portfolio_eb_vol" {
   name        = var.APP_NAME
   description = "Application version for the portfolio website"
   application = aws_elastic_beanstalk_application.portfolio_eb.name
-  bucket      = aws_s3_bucket.portfolio_bucket.id
+  bucket      = data.aws_s3_bucket.portfolio_bucket.id
   key         = aws_s3_object.Dockerrun_object.id
 
   tags = {
