@@ -22,6 +22,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <link
+        href="https://axeloooo-software-bucket.s3.ca-central-1.amazonaws.com/portfolio/favicon.ico"
+        rel="icon"
+      ></link>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
