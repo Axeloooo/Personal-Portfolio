@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaCode } from "react-icons/fa6";
 import { RiFlutterFill } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
 
@@ -33,32 +34,60 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Notion Plus",
+    title: "Lotion Plus",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["AWS", "Terraform", "Python", "React", "Javascript"],
-    imageUrl: "/axel.webp",
-  },
-  {
-    title: "Game Heaven",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Express", "MongoDB", "Vite", "React", "Tailwind", "Javascript"],
-    imageUrl: "/game-heaven.webp",
-  },
-  {
-    title: "Bandist",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["Flutter", "Dart", "Sqlite", "Django", "Python"],
-    imageUrl: "/bandist.webp",
+      "Full stack serverless web application for simple note taking.",
+    tags: ["Terraform", "Lambda", "DynamoDB", "Python", "React", "Javascript"],
+    imageUrl: "/lotion.png",
+    githubUrl: "https://github.com/Axeloooo/Lotion-Plus",
   },
   {
     title: "The Last Show",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["AWS", "Terraform", "Python", "React", "Javascript"],
-    imageUrl: "/axel.png",
+      "Full stack serverless web application that creates imaginative obituaries for fictional characters.",
+    tags: ["Terraform", "Lambda", "DynamoDB", "Python", "React", "Javascript"],
+    imageUrl: "/last-show.png",
+    githubUrl: "https://github.com/Axeloooo/The-Last-Show",
+  },
+  {
+    title: "Bandist",
+    description:
+      "Full stack cross-platform application for finding and booking local concerts for your favorite bands.",
+    tags: ["Flutter", "Dart", "Sqlite", "Django", "Python"],
+    imageUrl: "/band.png",
+    githubUrl: "https://github.com/techstartucalgary/Bandist",
+  },
+  {
+    title: "SEUC Website",
+    description:
+      "The official website for the Student Energy University of Calgary Chapter.",
+    tags: ["Vite", "React", "Typescript", "Framer Motion"],
+    imageUrl: "/seuc-website.png",
+    githubUrl: "https://github.com/studentenergyuofc/seucalgary-website",
+  },
+  {
+    title: "Game Heaven",
+    description:
+      "Full stack web application for finding and buying the most popular video games.",
+    tags: ["Express", "MongoDB", "Vite", "React", "Tailwind", "Typescript"],
+    imageUrl: "/game.png",
+    githubUrl: "https://github.com/Axeloooo/Ecommerce-API",
+  },
+  {
+    title: "Airline Reservation Web Application",
+    description:
+      "Full stack web application for booking flights and managing reservations.",
+    tags: ["Spring Boot", "MySQL", "Java", "React", "Javascript"],
+    imageUrl: "/airline.png",
+    githubUrl: "https://github.com/TheKenDoll/480TermProject",
+  },
+  {
+    title: "LibCode",
+    description:
+      "A comprehensive library encompassing a wide range of essential data structures, designed to serve as a reusable and versatile package.",
+    tags: ["PyPi", "Python", "PyTest"],
+    imageUrl: "/libcode.png",
+    githubUrl: "https://github.com/Axeloooo/LibCode",
   },
 ] as const;
 
@@ -72,12 +101,12 @@ export const skillsData = [
   "Node.js",
   "Express",
   "Spring Boot",
-  "Prisma",
   "MongoDB",
   "PostgreSQL",
   "MySQL",
   "SQLite",
-  "C/C++",
+  "C",
+  "C++",
   "Dart",
   "TypeScript",
   "JavaScript",
@@ -123,6 +152,14 @@ export const experiencesData = [
       "Full stack development for a multinational company. Maintaining and developing new features for the company's e-commerce platform.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - Sept 2023",
+  },
+  {
+    title: "VP Development - Student Energy UCalgary",
+    location: "Calgary, AB",
+    description:
+      "Full stack development for a non-profit organization. Developing and maintaining the organization's website and internal tools.",
+    icon: React.createElement(FaCode),
+    date: "Sept 2023 - Present",
   },
   {
     title: "Lead Backend Developer - Techstart UCalgary",

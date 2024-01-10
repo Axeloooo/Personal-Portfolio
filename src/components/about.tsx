@@ -25,7 +25,7 @@ export default function About() {
 
       <p className="mb-3">
         👨🏼‍💻 During summer 2023 I had the privilege of interning at Sigma as a
-        Software Engineer, where I contributed to a B2B Foodservice Ecommerce
+        Software Engineer, where I contributed to a B2B Food Service E-commerce
         Platform. This experience honed my knowledge in Spring Boot, SQL, CI/CD,
         and End-to-end testing, and introduced me to SAP and Azure DevOps.
       </p>
@@ -39,10 +39,10 @@ export default function About() {
 
       <p className="mb-3">
         📱 Since September 2022, I've been a Software Developer with TechStart
-        UCalgary. I worked with Bandist as a Full-Stack Developer on a music
-        notification app and later joined Fashion as a Backend/Algorithm
-        Developer, creating an app that educates users about eco-friendly
-        clothing choices.
+        UCalgary. I worked with the Bandist startup as a Full-Stack Developer on
+        a music notification app and later joined the ReThread startup as a Lead
+        Backend Developer, creating an app educates users about eco-friendly
+        clothing choices through a seamless e-commerce.
       </p>
     </motion.section>
   );

@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/axel.webp"
+              src="/axel.png"
               alt="Axel portrait"
               width="192"
               height="192"
@@ -63,7 +63,8 @@ export default function Intro() {
       >
         Hi! I'm <span className="font-bold">Axel</span>, a{" "}
         <span className="font-bold">full-stack developer</span> based in{" "}
-        <span className="font-bold">Paris, France</span>.
+        <span className="font-bold">Calgary, Alberta</span>. I'm currently
+        looking for a <span className="font-bold">internship</span> position.
       </motion.h1>
 
       <motion.div
