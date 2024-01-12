@@ -38,3 +38,6 @@ My Software Engineering portfolio website built with Next.js and Tailwind CSS, d
   ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
 
 ## ☁️ Architecture Diagram
+
+![portfolio-architecture](https://github.com/Axeloooo/Personal-Portfolio/assets/106788226/021caa81-8131-449e-9000-915712aecbc2)
+
