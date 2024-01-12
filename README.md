@@ -11,6 +11,7 @@
 
 - [🔎 Overview](#-overview)
 - [👨‍💻 Tech Stack](#-tech-stack)
+- [☁️ Architecture Diagram](#-architecture-diagram)
 
 ## 🔎 Overview
 
